@@ -27,3 +27,7 @@ document.getElementById("text").addEventListener("keypress", (event) => {
     document.getElementById("form").dispatchEvent(new Event("submit"));
   }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("text").focus();
+});
